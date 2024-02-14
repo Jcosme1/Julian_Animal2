@@ -13,7 +13,7 @@ public class Animal {
         this.numberOfLegs = 4;
         this.diet = "Carnivore";
     }
-
+//
     public Animal(boolean beingDangerous, int numberOfLegs, String diet){
         this.beingDangerous = beingDangerous;
         this.numberOfLegs = numberOfLegs;
@@ -50,6 +50,10 @@ public class Animal {
 
     public void eat(){
         System.out.print("Animal class: Eating -  ");
+    }
+
+    public String toString(){
+        return "slay ";
     }
 
 

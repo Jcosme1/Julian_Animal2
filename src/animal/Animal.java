@@ -6,11 +6,14 @@ public class Animal {
     protected int numberOfLegs;
     protected String diet;
 
-    public Animal(boolean beingDangerous, int numberOfLegs, String diet){
-        this.beingDangerous = beingDangerous;
-        this.numberOfLegs = numberOfLegs;
-        this.diet = diet;
-    }
+//    public Animal(boolean beingDangerous, int numberOfLegs, String diet){
+//        this.beingDangerous = beingDangerous;
+//        this.numberOfLegs = numberOfLegs;
+//        this.diet = diet;
+//    }
+//    public Animal(){
+//
+//    }
 
     public boolean isBeingDangerous() {
         return beingDangerous;
@@ -44,6 +47,9 @@ public class Animal {
         System.out.print("Animal class: Eating -  ");
     }
 
+    public String toString(){
+        return "slay";
+    }
 
 
 }
